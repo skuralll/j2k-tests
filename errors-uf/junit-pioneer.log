@@ -1,0 +1,219 @@
+16:00:00: Executing 'build'…
+
+Starting Gradle Daemon...
+Gradle Daemon started in 1 s 10 ms
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:processResources NO-SOURCE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+> Task :checkKotlinGradlePluginConfigurationErrors SKIPPED
+Download https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-impl/2.1.0/kotlin-build-tools-impl-2.1.0.jar, took 321 ms
+Download https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-daemon-embeddable/2.1.0/kotlin-daemon-embeddable-2.1.0.jar, took 416 ms
+Download https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-build-common/2.1.0/kotlin-build-common-2.1.0.jar, took 497 ms
+Download https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-compiler-embeddable/2.1.0/kotlin-compiler-embeddable-2.1.0.jar, took 8 s 520 ms
+> Task :processResources UP-TO-DATE
+> Task :sourcesJar
+> Task :processTestResources UP-TO-DATE
+> Task :processDemoResources UP-TO-DATE
+> Task :processDemoTestsResources UP-TO-DATE
+> Task :spotlessInternalRegisterDependencies
+> Task :spotlessJava
+> Task :spotlessJavaCheck
+> Task :spotlessCheck
+> Task :validateYaml
+
+> Task :compileKotlin
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerAnnotationUtils.kt:56:16 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerAnnotationUtils.kt:56:56 Argument type mismatch: actual type is 'java.lang.Class<CapturedType(out kotlin.Annotation?)>', but 'java.lang.Class<A?>' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerAnnotationUtils.kt:136:63 No value passed for parameter 'annotation'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerAnnotationUtils.kt:137:58 Unresolved reference 'annotationType'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerAnnotationUtils.kt:144:48 Unresolved reference 'annotationType'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerAnnotationUtils.kt:146:80 No value passed for parameter 'annotation'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerAnnotationUtils.kt:162:44 Unresolved reference 'annotationType'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerAnnotationUtils.kt:174:77 Unresolved reference 'annotationType'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerAnnotationUtils.kt:277:80 No value passed for parameter 'parameter'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerAnnotationUtils.kt:290:11 Function invocation 'ifPresent(...)' expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerAnnotationUtils.kt:309:36 Unresolved reference 'annotationType'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerAnnotationUtils.kt:312:22 Unresolved reference 'isPresent'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerUtils.kt:34:39 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerUtils.kt:34:62 Argument type mismatch: actual type is 'T#2 (type parameter of fun <T> distinctToSet(): Collector<T, MutableSet<T>, MutableSet<T>>)', but 'kotlin.collections.MutableSet<T#1 (type parameter of fun <T> addButThrowIfDuplicate(set: MutableSet<T>, element: T): Unit)>' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerUtils.kt:34:62 No value passed for parameter 'element'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerUtils.kt:36:23 Function invocation 'forEach(...)' expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerUtils.kt:91:56 No value passed for parameter 'context'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerUtils.kt:142:32 Argument type mismatch: actual type is 'kotlin.Any?', but 'kotlin.Any' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerUtils.kt:143:35 Argument type mismatch: actual type is 'kotlin.collections.List<CapturedType(*)>', but 'kotlin.collections.Collection<out kotlin.Any>' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/TestNameFormatter.kt:25:50 Argument type mismatch: actual type is 'kotlin.Array<CapturedType(out kotlin.Any)>', but 'kotlin.Array<kotlin.Any>' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/AbstractEntryBasedExtension.kt:63:26 Argument type mismatch: actual type is 'kotlin.Function1<org.junit.jupiter.api.extension.ExtensionContext, kotlin.Unit>', but 'kotlin.Function1<T, kotlin.Unit>' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/AbstractEntryBasedExtension.kt:185:70 Argument type mismatch: actual type is 'K?', but 'K' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/AbstractEntryBasedExtension.kt:185:75 Argument type mismatch: actual type is 'V?', but 'V' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/AbstractEntryBasedExtension.kt:213:17 Argument type mismatch: actual type is 'java.lang.Class<org.junitpioneer.jupiter.AbstractEntryBasedExtension.EntriesBackup<*, *, *, *, *>>', but 'java.lang.Class<V!>!' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/AbstractEntryBasedExtension.kt:235:61 Argument type mismatch: actual type is 'K?', but 'K' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/AbstractEntryBasedExtension.kt:236:44 Argument type mismatch: actual type is 'K?', but 'K' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/AbstractEntryBasedExtension.kt:246:102 Argument type mismatch: actual type is 'K?', but 'K' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/AbstractEntryBasedExtension.kt:246:107 Argument type mismatch: actual type is 'V?', but 'V' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/DefaultLocaleExtension.kt:22:87 Argument type mismatch: actual type is 'java.lang.Class<org.junitpioneer.jupiter.DefaultLocale>', but 'java.lang.Class<A?>' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/DefaultLocaleExtension.kt:40:88 Argument type mismatch: actual type is 'java.lang.Class<org.junitpioneer.jupiter.DefaultLocale>', but 'java.lang.Class<A?>' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/DefaultTimeZoneExtension.kt:21:89 Argument type mismatch: actual type is 'java.lang.Class<org.junitpioneer.jupiter.DefaultTimeZone>', but 'java.lang.Class<A?>' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/DefaultTimeZoneExtension.kt:45:90 Argument type mismatch: actual type is 'java.lang.Class<org.junitpioneer.jupiter.DefaultTimeZone>', but 'java.lang.Class<A?>' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/DisableIfTestFails.kt:61:28 Type argument is not within its bounds: should be subtype of 'kotlin.Any'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/DisableIfTestFailsExtension.kt:35:47 Function invocation 'orElseThrow()' expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/DisableIfTestFailsExtension.kt:102:18 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/DisableIfTestFailsExtension.kt:102:18 Function invocation 'map(...)' expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/DisableIfTestFailsExtension.kt:108:18 Unresolved reference 'orElse'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/DisableIfTestFailsExtension.kt:108:32 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/DisableIfTestFailsExtension.kt:111:55 Argument type mismatch: actual type is 'java.util.Optional<ERROR CLASS: Cannot infer argument for type parameter U>!', but 'java.util.stream.Stream<out T!>!' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/DisableIfTestFailsExtension.kt:125:81 Argument type mismatch: actual type is 'kotlin.Array<kotlin.reflect.KClass<out kotlin.Throwable?>>', but 'R!' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/DisabledUntilExtension.kt:40:95 Argument type mismatch: actual type is 'java.lang.Class<org.junitpioneer.jupiter.DisabledUntil>', but 'java.lang.Class<A?>' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/EnvironmentVariableExtension.kt:19:10 Class 'EnvironmentVariableExtension' is not abstract and does not implement abstract base class member 'clearEntry'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/EnvironmentVariableExtension.kt:21:36 Return type of 'clearKeyMapper' is not a subtype of the return type of the overridden member 'fun clearKeyMapper(): Function<ClearEnvironmentVariable, String?>' defined in 'org/junitpioneer/jupiter/EnvironmentVariableExtension'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/EnvironmentVariableExtension.kt:25:34 Return type of 'setKeyMapper' is not a subtype of the return type of the overridden member 'fun setKeyMapper(): Function<SetEnvironmentVariable, String?>' defined in 'org/junitpioneer/jupiter/EnvironmentVariableExtension'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/EnvironmentVariableExtension.kt:46:5 'clearEntry' overrides nothing. Potential signatures for overriding:
+fun clearEntry(key: String?): Unit
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/EnvironmentVariableExtension.kt:50:5 'getEntry' overrides nothing. Potential signatures for overriding:
+fun getEntry(key: String?): String
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/ExpectedToFail.kt:85:38 Type argument is not within its bounds: should be subtype of 'kotlin.Any'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/ExpectedToFailExtension.kt:49:54 Argument type mismatch: actual type is 'kotlin.Array<kotlin.reflect.KClass<out kotlin.Throwable?>>', but 'kotlin.Array<(out) T!>!' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/FailAtExtension.kt:41:88 Argument type mismatch: actual type is 'java.lang.Class<org.junitpioneer.jupiter.FailAt>', but 'java.lang.Class<A?>' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/IssueExtension.kt:24:80 Argument type mismatch: actual type is 'java.lang.Class<org.junitpioneer.jupiter.Issue>', but 'java.lang.Class<A?>' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/IssueExtension.kt:24:99 Function invocation 'ifPresent(...)' expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/ReportEntryExtension.kt:34:16 Return type mismatch: expected 'java.util.stream.Stream<org.junitpioneer.jupiter.ReportEntry?>?', actual 'java.util.stream.Stream<org.junitpioneer.jupiter.ReportEntry>'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/ReportEntryExtension.kt:65:13 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'java.util.stream.Stream<org.junitpioneer.jupiter.ReportEntry?>?'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/ReportEntryExtension.kt:85:13 Argument type mismatch: actual type is 'java.lang.Class<kotlin.collections.MutableList<*>>', but 'java.lang.Class<V!>!' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/ReportEntryExtension.kt:128:46 Unresolved reference 'max'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/RetryingTest.kt:154:36 Type argument is not within its bounds: should be subtype of 'kotlin.Any'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/RetryingTestExtension.kt:52:13 Class 'RetryingTestExtension.FailedTestRetrier' is not abstract and does not implement abstract member 'remove'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/RetryingTestExtension.kt:67:24 Annotation argument must be a compile-time constant.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/RetryingTestExtension.kt:67:24 Cannot use 'E' as reified type parameter. Use a class instead.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/RetryingTestExtension.kt:81:23 Type mismatch: inferred type is 'E', but 'kotlin.Throwable' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/RetryingTestExtension.kt:211:21 Argument type mismatch: actual type is 'kotlin.Array<kotlin.reflect.KClass<out kotlin.Throwable?>>', but 'kotlin.Array<java.lang.Class<out kotlin.Throwable?>>' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/StdIn.kt:69:16 Return type mismatch: expected 'kotlin.Array<kotlin.String>', actual 'kotlin.Array<out kotlin.String?>'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/StdIoExtension.kt:39:69 Argument type mismatch: actual type is 'kotlin.Array<CapturedType(out kotlin.String)>', but 'kotlin.Array<kotlin.String>' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/StdIoExtension.kt:92:93 Argument type mismatch: actual type is 'java.lang.Class<org.junitpioneer.jupiter.StdIo>', but 'java.lang.Class<A?>' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/StdIoExtension.kt:101:13 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'org.junitpioneer.jupiter.StdIo?'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/StdIoExtension.kt:108:81 Argument type mismatch: actual type is 'kotlin.Array<CapturedType(out kotlin.String)>', but 'kotlin.Array<kotlin.String>' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/StdOutputStream.kt:51:16 Return type mismatch: expected 'kotlin.Array<kotlin.String>', actual 'kotlin.Array<out kotlin.String?>'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/SystemPropertyExtension.kt:15:10 Class 'SystemPropertyExtension' is not abstract and does not implement abstract base class member 'clearEntry'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/SystemPropertyExtension.kt:17:36 Return type of 'clearKeyMapper' is not a subtype of the return type of the overridden member 'fun clearKeyMapper(): Function<ClearSystemProperty, String?>' defined in 'org/junitpioneer/jupiter/SystemPropertyExtension'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/SystemPropertyExtension.kt:21:34 Return type of 'setKeyMapper' is not a subtype of the return type of the overridden member 'fun setKeyMapper(): Function<SetSystemProperty, String?>' defined in 'org/junitpioneer/jupiter/SystemPropertyExtension'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/SystemPropertyExtension.kt:29:5 'clearEntry' overrides nothing. Potential signatures for overriding:
+fun clearEntry(key: String?): Unit
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/SystemPropertyExtension.kt:33:5 'getEntry' overrides nothing. Potential signatures for overriding:
+fun getEntry(key: String?): String
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianArgumentsSource.kt:37:23 Type argument is not within its bounds: should be subtype of 'kotlin.Any'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianEnumArgumentsProvider.kt:25:56 Type argument is not within its bounds: should be subtype of 'kotlin.Enum<E>'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianEnumArgumentsProvider.kt:46:32 Argument type mismatch: actual type is 'kotlin.Function1<E, kotlin.Boolean>', but 'kotlin.Function1<E?, kotlin.Boolean>' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianEnumArgumentsProvider.kt:46:62 Argument type mismatch: actual type is 'E', but 'kotlin.Enum<*>' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianEnumArgumentsProvider.kt:53:16 Return type mismatch: expected 'kotlin.collections.MutableSet<E?>', actual 'java.util.EnumSet<CapturedType(*)!>!'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianEnumArgumentsProvider.kt:53:30 Argument type mismatch: actual type is 'java.lang.Class<E#2 (type parameter of class CartesianEnumArgumentsProvider<E : Enum<E>?> : CartesianParameterArgumentsProvider<E?>)?>', but 'java.lang.Class<E#1 (type parameter of static fun <E : Enum<E!>!> allOf(p0: Class<E!>!): EnumSet<E!>!)!>!' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianEnumArgumentsProvider.kt:57:35 Initializer type mismatch: expected 'java.lang.Class<*>', actual 'kotlin.reflect.KClass<out kotlin.Enum<*>?>'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianEnumArgumentsProvider.kt:64:16 Return type mismatch: expected 'java.lang.Class<E?>', actual 'java.lang.Class<*>'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianFactoryArgumentsProvider.kt:23:10 Class 'CartesianFactoryArgumentsProvider' is not abstract and does not implement abstract member 'accept'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianFactoryArgumentsProvider.kt:43:34 Cannot access 'val arguments: MutableList<List<*>>': it is private in 'org/junitpioneer/jupiter/cartesian/ArgumentSets'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianFactoryArgumentsProvider.kt:57:5 'accept' overrides nothing. Potential signatures for overriding:
+fun accept(p0: CartesianTest.MethodFactory?): Unit
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTest.kt:170:27 Type argument is not within its bounds: should be subtype of 'kotlin.Any'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTest.kt:217:17 Interface 'interface Validator : Any' does not have constructors.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTest.kt:231:17 Interface 'interface Validator : Any' does not have constructors.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTest.kt:247:17 Interface 'interface Validator : Any' does not have constructors.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTest.kt:265:17 Interface 'interface Validator : Any' does not have constructors.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTest.kt:299:84 Unresolved reference 'name'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTestExtension.kt:67:44 Argument type mismatch: actual type is 'kotlin.collections.List<kotlin.Annotation?>', but 'kotlin.collections.List<kotlin.Annotation>' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTestExtension.kt:79:55 Cannot access 'val arguments: MutableList<List<*>>': it is private in 'org/junitpioneer/jupiter/cartesian/ArgumentSets'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTestExtension.kt:91:23 Unresolved reference 'min'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTestExtension.kt:119:32 Unresolved reference 'annotationType'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTestExtension.kt:123:82 Argument type mismatch: actual type is 'kotlin.reflect.KClass<CapturedType(out org.junitpioneer.jupiter.cartesian.CartesianArgumentsProvider?)>', but 'java.lang.Class<T!>!' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTestExtension.kt:141:29 Assignment type mismatch: actual type is 'kotlin.reflect.KClass<out org.junitpioneer.jupiter.cartesian.CartesianArgumentsProvider?>', but 'java.lang.Class<*>' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTestExtension.kt:148:96 Unresolved reference 'annotationType'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTestExtension.kt:153:29 Assignment type mismatch: actual type is 'kotlin.reflect.KClass<out org.junit.jupiter.params.provider.ArgumentsProvider!>', but 'java.lang.Class<*>' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTestExtension.kt:171:21 New inference error [NewConstraintError at Incorporate TypeVariable(T) == kotlin/Any? from Fix variable T from position Fix variable T: ft<kotlin/collections/MutableList<kotlin/Any?>, kotlin/collections/List<kotlin/Any?>?> <!: ft<kotlin/collections/List<kotlin/Any>, kotlin/collections/List<kotlin/Any>?>].
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTestInvocationContext.kt:22:51 Argument type mismatch: actual type is 'kotlin.Array<T>', but 'kotlin.Array<out kotlin.Any>' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTestInvocationContext.kt:22:61 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'kotlin.collections.List<CapturedType(*)>?'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianValueArgumentsProvider.kt:26:10 Class 'CartesianValueArgumentsProvider' is not abstract and does not implement abstract member 'accept'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianValueArgumentsProvider.kt:29:13 Property must be initialized or be abstract.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianValueArgumentsProvider.kt:31:5 'accept' overrides nothing. Potential signatures for overriding:
+fun accept(p0: CartesianTest.Values?): Unit
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/converter/NumberToByteArrayArgumentConverter.kt:18:10 Class 'NumberToByteArrayArgumentConverter' is not abstract and does not implement abstract member 'accept'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/converter/NumberToByteArrayArgumentConverter.kt:24:5 'accept' overrides nothing. Potential signatures for overriding:
+fun accept(p0: NumberToByteArrayConversion?): Unit
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/issue/IssueExtensionExecutionListener.kt:56:62 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'kotlin.String?'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/AbstractJsonArgumentsProvider.kt:31:42 Argument type mismatch: actual type is 'kotlin.Function1<org.junitpioneer.jupiter.json.Node, org.junit.jupiter.params.provider.Arguments>', but 'kotlin.Function1<org.junitpioneer.jupiter.json.Node?, R!>!' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/AbstractJsonArgumentsProvider.kt:36:42 Argument type mismatch: actual type is 'kotlin.Function1<org.junitpioneer.jupiter.json.Node, kotlin.Any?>', but 'kotlin.Function1<org.junitpioneer.jupiter.json.Node?, R!>!' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/AbstractJsonSourceBasedArgumentsProvider.kt:30:13 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'kotlin.collections.List<org.junitpioneer.jupiter.json.AbstractJsonSourceBasedArgumentsProvider.Source>?'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/AbstractJsonSourceBasedArgumentsProvider.kt:38:61 Smart cast to 'kotlin.CharSequence' is impossible, because 'dataLocation' is a mutable property that could be mutated concurrently.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/AbstractJsonSourceBasedArgumentsProvider.kt:46:20 Return type mismatch: expected 'java.util.stream.Stream<org.junitpioneer.jupiter.json.Node?>?', actual 'java.util.stream.Stream<org.junitpioneer.jupiter.json.Node>?'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/JacksonJsonConverter.kt:64:69 Unresolved reference 'get'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/JacksonNode.kt:47:32 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/JacksonNode.kt:47:32 Not enough information to infer type argument for 'T'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/JacksonNode.kt:48:16 Return type mismatch: expected 'java.util.Optional<org.junitpioneer.jupiter.json.Node?>', actual 'java.util.Optional<org.junitpioneer.jupiter.json.JacksonNode>'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/JsonClasspathSourceArgumentsProvider.kt:21:10 Class 'JsonClasspathSourceArgumentsProvider' is not abstract and does not implement abstract member 'accept'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/JsonClasspathSourceArgumentsProvider.kt:23:5 'accept' overrides nothing. Potential signatures for overriding:
+fun accept(p0: JsonClasspathSource?): Unit
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/JsonClasspathSourceArgumentsProvider.kt:33:20 Interface 'interface Source : Any' does not have constructors.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/JsonConverterProvider.kt:32:15 Unresolved reference 'NoJsonParserConfiguredException'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/JsonConverterProvider.kt:32:15 Type mismatch: inferred type is 'ERROR CLASS: HIDDEN: org/junitpioneer/jupiter/json/NoJsonParserConfiguredException.NoJsonParserConfiguredException is deprecated with DeprecationLevel.HIDDEN', but 'kotlin.Throwable' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/JsonFileSourceArgumentsProvider.kt:26:10 Class 'JsonFileSourceArgumentsProvider' is not abstract and does not implement abstract member 'accept'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/JsonFileSourceArgumentsProvider.kt:28:5 'accept' overrides nothing. Potential signatures for overriding:
+fun accept(p0: JsonFileSource?): Unit
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/JsonFileSourceArgumentsProvider.kt:35:20 Interface 'interface Source : Any' does not have constructors.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/JsonInlineArgumentsProvider.kt:20:10 Class 'JsonInlineArgumentsProvider' is not abstract and does not implement abstract member 'accept'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/JsonInlineArgumentsProvider.kt:23:5 'accept' overrides nothing. Potential signatures for overriding:
+fun accept(p0: JsonSource?): Unit
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/JsonInlineArgumentsProvider.kt:29:13 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'kotlin.collections.List<kotlin.String>?'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/NoJsonParserConfiguredException.kt:19:42 None of the following candidates is applicable:
+constructor(message: String!): JUnitException
+constructor(message: String!, cause: Throwable!): JUnitException
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/ByteRange.kt:12:10 Class 'ByteRange' is not abstract and does not implement abstract member 'remove'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/ByteRange.kt:15:25 Operator call is prohibited on a nullable receiver of type 'kotlin.Byte?'. Use '?.'-qualified call instead.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/DisableIfArgumentExtension.kt:136:107 Argument type mismatch: actual type is 'kotlin.String?', but 'kotlin.CharSequence' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/DisableIfNameExtension.kt:30:13 Argument type mismatch: actual type is 'java.lang.Class<org.junitpioneer.jupiter.params.DisableIfDisplayName>', but 'java.lang.Class<A?>' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/DisableIfNameExtension.kt:32:45 Argument type mismatch: actual type is 'kotlin.Function1<org.junitpioneer.jupiter.params.DisableIfDisplayName, org.junit.jupiter.api.extension.ConditionEvaluationResult>', but 'kotlin.Function1<org.junitpioneer.jupiter.params.DisableIfDisplayName?, U!>!' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/DisableIfNameExtension.kt:65:53 Argument type mismatch: actual type is 'kotlin.String?', but 'kotlin.CharSequence' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/DoubleRange.kt:12:10 Class 'DoubleRange' is not abstract and does not implement abstract member 'remove'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/DoubleRange.kt:15:24 Operator call is prohibited on a nullable receiver of type 'kotlin.Double?'. Use '?.'-qualified call instead.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/FloatRange.kt:12:10 Class 'FloatRange' is not abstract and does not implement abstract member 'remove'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/FloatRange.kt:15:24 Operator call is prohibited on a nullable receiver of type 'kotlin.Float?'. Use '?.'-qualified call instead.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/IntRange.kt:12:10 Class 'IntRange' is not abstract and does not implement abstract member 'remove'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/IntRange.kt:15:24 Operator call is prohibited on a nullable receiver of type 'kotlin.Int?'. Use '?.'-qualified call instead.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/LongRange.kt:12:10 Class 'LongRange' is not abstract and does not implement abstract member 'remove'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/LongRange.kt:15:24 Operator call is prohibited on a nullable receiver of type 'kotlin.Long?'. Use '?.'-qualified call instead.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/RangeClass.kt:21:56 Type argument is not within its bounds: should be subtype of 'kotlin.Any'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/RangeSourceArgumentsProvider.kt:71:75 Unresolved reference 'annotationType'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/RangeSourceArgumentsProvider.kt:73:13 Initializer type mismatch: expected 'java.lang.Class<out org.junitpioneer.jupiter.params.Range<*>?>', actual 'kotlin.reflect.KClass<out org.junitpioneer.jupiter.params.Range<*>?>'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/ShortRange.kt:12:10 Class 'ShortRange' is not abstract and does not implement abstract member 'remove'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/ShortRange.kt:15:25 Operator call is prohibited on a nullable receiver of type 'kotlin.Short?'. Use '?.'-qualified call instead.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/resource/New.kt:45:23 Type argument is not within its bounds: should be subtype of 'kotlin.Any'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/resource/ResourceExtension.kt:81:81 Argument type mismatch: actual type is 'kotlin.reflect.KClass<CapturedType(out org.junitpioneer.jupiter.resource.ResourceFactory<*>?)>', but 'java.lang.Class<T!>!' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/resource/ResourceExtension.kt:127:29 Argument type mismatch: actual type is 'kotlin.reflect.KClass<CapturedType(out org.junitpioneer.jupiter.resource.ResourceFactory<*>?)>', but 'java.lang.Class<T!>!' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/resource/Shared.kt:48:25 Type argument is not within its bounds: should be subtype of 'kotlin.Any'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/vintage/ExpectedExceptionExtension.kt:85:20 Return type mismatch: expected 'java.util.Optional<out java.lang.Class<out kotlin.Throwable?>>', actual 'java.util.Optional<kotlin.reflect.KClass<out kotlin.Throwable>!>!'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/vintage/ExpectedExceptionExtension.kt:90:25 Argument type mismatch: actual type is 'java.util.function.Predicate<java.lang.Class<kotlin.Throwable?>>', but 'java.util.function.Predicate<in kotlin.reflect.KClass<out kotlin.Throwable>!>!' was expected.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/vintage/ExpectedExceptionExtension.kt:90:109 Unresolved reference 'None'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/vintage/ExpectedExceptionExtension.kt:90:121 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/vintage/ExpectedExceptionExtension.kt:90:121 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+val <T> KClass<T>.java: Class<T>
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/vintage/Test.kt:59:26 Type argument is not within its bounds: should be subtype of 'kotlin.Any'.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 19s
+
+> Task :compileKotlin FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.10.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+11 actionable tasks: 6 executed, 5 up-to-date
+16:00:20: Execution finished 'build'.

@@ -1,0 +1,49 @@
+16:12:54: Executing 'build'…
+
+> Task :checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :processResources NO-SOURCE
+> Task :processTestResources NO-SOURCE
+
+> Task :compileKotlin FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.8/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+1 actionable task: 1 executed
+e: file:///Users/shin/ghq/github.com/Sifaldin/Todo-List-Application-Java/src/main/java/IP/TodoListApplication/App/TodoList.kt:76:21 Operator '!=' cannot be applied to 'kotlin.String' and 'kotlin.Int'.
+e: file:///Users/shin/ghq/github.com/Sifaldin/Todo-List-Application-Java/src/main/java/IP/TodoListApplication/App/TodoList.kt:84:38 Null cannot be a value of a non-null type 'kotlin.String'.
+e: file:///Users/shin/ghq/github.com/Sifaldin/Todo-List-Application-Java/src/main/java/IP/TodoListApplication/App/TodoList.kt:91:38 Null cannot be a value of a non-null type 'kotlin.String'.
+e: file:///Users/shin/ghq/github.com/Sifaldin/Todo-List-Application-Java/src/main/java/IP/TodoListApplication/App/TodoList.kt:96:38 Null cannot be a value of a non-null type 'kotlin.String'.
+e: file:///Users/shin/ghq/github.com/Sifaldin/Todo-List-Application-Java/src/main/java/IP/TodoListApplication/Features/EditTask.kt:51:17 Operator '!=' cannot be applied to 'kotlin.String!' and 'kotlin.Int'.
+e: file:///Users/shin/ghq/github.com/Sifaldin/Todo-List-Application-Java/src/main/java/IP/TodoListApplication/Features/EditTask.kt:96:52 Unresolved reference 'setTitle'.
+e: file:///Users/shin/ghq/github.com/Sifaldin/Todo-List-Application-Java/src/main/java/IP/TodoListApplication/Features/EditTask.kt:101:52 Unresolved reference 'setDueDate'.
+e: file:///Users/shin/ghq/github.com/Sifaldin/Todo-List-Application-Java/src/main/java/IP/TodoListApplication/Features/EditTask.kt:106:52 Unresolved reference 'setStatus'.
+e: file:///Users/shin/ghq/github.com/Sifaldin/Todo-List-Application-Java/src/main/java/IP/TodoListApplication/Features/EditTask.kt:110:52 Unresolved reference 'setProjectName'.
+e: file:///Users/shin/ghq/github.com/Sifaldin/Todo-List-Application-Java/src/main/java/IP/TodoListApplication/Features/MarkAsDone.kt:49:38 Initializer type mismatch: expected 'IP.TodoListApplication.App.Task', actual 'IP.TodoListApplication.App.Task?'.
+e: file:///Users/shin/ghq/github.com/Sifaldin/Todo-List-Application-Java/src/main/java/IP/TodoListApplication/Features/MarkAsDone.kt:49:38 Type mismatch: inferred type is 'IP.TodoListApplication.App.Task?', but 'IP.TodoListApplication.App.Task' was expected.
+e: file:///Users/shin/ghq/github.com/Sifaldin/Todo-List-Application-Java/src/main/java/IP/TodoListApplication/Features/MarkAsDone.kt:75:47 Unresolved reference 'setStatus'.
+e: file:///Users/shin/ghq/github.com/Sifaldin/Todo-List-Application-Java/src/main/java/IP/TodoListApplication/Features/RemoveTask.kt:49:38 Initializer type mismatch: expected 'IP.TodoListApplication.App.Task', actual 'IP.TodoListApplication.App.Task?'.
+e: file:///Users/shin/ghq/github.com/Sifaldin/Todo-List-Application-Java/src/main/java/IP/TodoListApplication/Features/RemoveTask.kt:49:38 Type mismatch: inferred type is 'IP.TodoListApplication.App.Task?', but 'IP.TodoListApplication.App.Task' was expected.
+e: file:///Users/shin/ghq/github.com/Sifaldin/Todo-List-Application-Java/src/main/java/IP/TodoListApplication/Features/TasksDisplay.kt:45:52 Unresolved reference 'getTitle'.
+e: file:///Users/shin/ghq/github.com/Sifaldin/Todo-List-Application-Java/src/main/java/IP/TodoListApplication/Features/TasksDisplay.kt:46:74 Unresolved reference 'getDueDate'.
+e: file:///Users/shin/ghq/github.com/Sifaldin/Todo-List-Application-Java/src/main/java/IP/TodoListApplication/Features/TasksDisplay.kt:47:32 Unresolved reference 'getStatus'.
+e: file:///Users/shin/ghq/github.com/Sifaldin/Todo-List-Application-Java/src/main/java/IP/TodoListApplication/Features/TasksDisplay.kt:47:67 Unresolved reference 'getProjectName'.
+e: file:///Users/shin/ghq/github.com/Sifaldin/Todo-List-Application-Java/src/main/java/IP/TodoListApplication/SaveRead/SaveTasksToFile.kt:68:45 Argument type mismatch: actual type is 'java.util.stream.Collector<kotlin.String!, CapturedType(*), kotlin.collections.(Mutable)List<kotlin.String!>!>!', but 'java.util.stream.Collector<in kotlin.String!, A!, R!>!' was expected.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 4s
+16:12:59: Execution finished 'build'.

@@ -1,0 +1,291 @@
+19:20:00:  'build' を実行中...
+
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:processResources NO-SOURCE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+> Task :checkKotlinGradlePluginConfigurationErrors
+> Task :processResources UP-TO-DATE
+> Task :sourcesJar
+> Task :processTestResources UP-TO-DATE
+> Task :processDemoResources UP-TO-DATE
+> Task :processDemoTestsResources UP-TO-DATE
+> Task :spotlessInternalRegisterDependencies
+> Task :spotlessJava
+> Task :spotlessJavaCheck
+> Task :spotlessCheck
+> Task :validateYaml
+
+> Task :compileKotlin
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/module-info.kt:53:67 Cannot access 'ArgumentChecker': it is private in 'DisableIfArgumentExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/module-info.kt:64:61 Cannot access 'TemporaryDirectoryResource': it is private in 'TemporaryDirectory'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/module-info.kt:117:55 Cannot access 'FailedTestRetrier': it is private in 'RetryingTestExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/module-info.kt:134:61 Cannot access 'EntriesBackup': it is private in 'AbstractEntryBasedExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerAnnotationUtils.kt:56:56 Type mismatch: inferred type is Class<out Annotation?> but Class<TypeVariable(A)?> was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerAnnotationUtils.kt:136:63 No value passed for parameter 'annotation'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerAnnotationUtils.kt:137:58 Unresolved reference: annotationType
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerAnnotationUtils.kt:144:48 Unresolved reference: annotationType
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerAnnotationUtils.kt:146:80 No value passed for parameter 'annotation'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerAnnotationUtils.kt:162:44 Unresolved reference: annotationType
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerAnnotationUtils.kt:174:77 Unresolved reference: annotationType
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerAnnotationUtils.kt:270:61 No value passed for parameter 'parameter'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerAnnotationUtils.kt:299:36 Unresolved reference: annotationType
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerUtils.kt:34:62 Type mismatch: inferred type is T but MutableSet<TypeVariable(T)> was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerUtils.kt:34:62 No value passed for parameter 'element'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerUtils.kt:94:86 No value passed for parameter 'context'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerUtils.kt:145:32 Type mismatch: inferred type is Any? but Any was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/PioneerUtils.kt:146:35 Type mismatch: inferred type is List<*> but Collection<Any> was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/TestNameFormatter.kt:21:50 Type mismatch: inferred type is Array<out Any> but Array<Any> was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/package-info.kt:59:67 Cannot access 'ArgumentChecker': it is private in 'DisableIfArgumentExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/package-info.kt:70:61 Cannot access 'TemporaryDirectoryResource': it is private in 'TemporaryDirectory'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/package-info.kt:123:55 Cannot access 'FailedTestRetrier': it is private in 'RetryingTestExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/internal/package-info.kt:140:61 Cannot access 'EntriesBackup': it is private in 'AbstractEntryBasedExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/AbstractEntryBasedExtension.kt:63:28 Expected parameter of type ExtensionContext?
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/AbstractEntryBasedExtension.kt:185:70 Type mismatch: inferred type is K? but K was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/AbstractEntryBasedExtension.kt:213:17 Type mismatch: inferred type is AbstractEntryBasedExtension<*, *, *, *, *>.EntriesBackup! but AbstractEntryBasedExtension<K, V, C, S, R>.EntriesBackup! was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/AbstractEntryBasedExtension.kt:235:61 Type mismatch: inferred type is K? but K was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/AbstractEntryBasedExtension.kt:236:44 Type mismatch: inferred type is K? but K was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/DefaultLocaleExtension.kt:22:87 Type mismatch: inferred type is Class<DefaultLocale> but Class<TypeVariable(A)?> was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/DefaultLocaleExtension.kt:40:88 Type mismatch: inferred type is Class<DefaultLocale> but Class<TypeVariable(A)?> was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/DefaultLocaleExtension.kt:40:88 Type mismatch: inferred type is DefaultLocale? but DefaultLocale was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/DefaultTimeZoneExtension.kt:21:89 Type mismatch: inferred type is Class<DefaultTimeZone> but Class<TypeVariable(A)?> was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/DefaultTimeZoneExtension.kt:44:90 Type mismatch: inferred type is Class<DefaultTimeZone> but Class<TypeVariable(A)?> was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/DefaultTimeZoneExtension.kt:44:90 Type mismatch: inferred type is DefaultTimeZone? but DefaultTimeZone was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/DisableIfTestFails.kt:61:32 Type argument is not within its bounds: should be subtype of 'Any'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/DisableIfTestFailsExtension.kt:117:81 Type mismatch: inferred type is Array<KClass<out Throwable?>> but Array<Class<out Throwable?>>! was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/DisableIfTestFailsExtension.kt:117:81 Type mismatch: inferred type is Array<KClass<out Throwable?>>! but Array<Class<out Throwable?>>! was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/DisabledUntilExtension.kt:40:95 Type mismatch: inferred type is Class<DisabledUntil> but Class<TypeVariable(A)?> was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/DisabledUntilExtension.kt:40:95 Type mismatch: inferred type is DisabledUntil? but DisabledUntil was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/EnvironmentVariableExtension.kt:19:10 Class 'EnvironmentVariableExtension' is not abstract and does not implement abstract base class member protected abstract fun clearEntry(key: String?): Unit defined in org.junitpioneer.jupiter.AbstractEntryBasedExtension
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/EnvironmentVariableExtension.kt:21:36 Return type of 'clearKeyMapper' is not a subtype of the return type of the overridden member 'protected abstract fun clearKeyMapper(): Function<ClearEnvironmentVariable, String?> defined in org.junitpioneer.jupiter.AbstractEntryBasedExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/EnvironmentVariableExtension.kt:25:34 Return type of 'setKeyMapper' is not a subtype of the return type of the overridden member 'protected abstract fun setKeyMapper(): Function<SetEnvironmentVariable, String?> defined in org.junitpioneer.jupiter.AbstractEntryBasedExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/EnvironmentVariableExtension.kt:46:5 'clearEntry' overrides nothing
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/EnvironmentVariableExtension.kt:50:5 'getEntry' overrides nothing
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/ExpectedToFail.kt:85:42 Type argument is not within its bounds: should be subtype of 'Any'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/ExpectedToFailExtension.kt:49:54 Type mismatch: inferred type is KClass<out Throwable?>! but Class<out Throwable>! was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/FailAtExtension.kt:41:88 Type mismatch: inferred type is Class<FailAt> but Class<TypeVariable(A)?> was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/FailAtExtension.kt:41:88 Type mismatch: inferred type is FailAt? but FailAt was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/IssueExtension.kt:26:13 Type mismatch: inferred type is Class<Issue> but Class<TypeVariable(A)?> was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/IssueExtension.kt:26:13 Type mismatch: inferred type is Issue? but Issue was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/ReportEntryExtension.kt:34:16 Type mismatch: inferred type is Stream<ReportEntry> but Stream<ReportEntry?>? was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/ReportEntryExtension.kt:65:13 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type Stream<ReportEntry?>?
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/ReportEntryExtension.kt:85:13 Type mismatch: inferred type is List<*>! but MutableList<*>! was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/ReportEntryExtension.kt:128:46 Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public fun <T : Comparable<TypeVariable(T)>> Array<out TypeVariable(T)>.max(): TypeVariable(T) defined in kotlin.collections
+public fun Array<out Double>.max(): Double defined in kotlin.collections
+public fun Array<out Float>.max(): Float defined in kotlin.collections
+public fun ByteArray.max(): Byte defined in kotlin.collections
+public fun CharArray.max(): Char defined in kotlin.collections
+public fun CharSequence.max(): Char defined in kotlin.text
+public fun DoubleArray.max(): Double defined in kotlin.collections
+public fun FloatArray.max(): Float defined in kotlin.collections
+public fun IntArray.max(): Int defined in kotlin.collections
+public fun LongArray.max(): Long defined in kotlin.collections
+public fun ShortArray.max(): Short defined in kotlin.collections
+public fun UByteArray.max(): UByte defined in kotlin.collections
+public fun UIntArray.max(): UInt defined in kotlin.collections
+public fun ULongArray.max(): ULong defined in kotlin.collections
+public fun UShortArray.max(): UShort defined in kotlin.collections
+public fun <T : Comparable<TypeVariable(T)>> Iterable<TypeVariable(T)>.max(): TypeVariable(T) defined in kotlin.collections
+public fun Iterable<Double>.max(): Double defined in kotlin.collections
+public fun Iterable<Float>.max(): Float defined in kotlin.collections
+public fun <T : Comparable<TypeVariable(T)>> Sequence<TypeVariable(T)>.max(): TypeVariable(T) defined in kotlin.sequences
+public fun Sequence<Double>.max(): Double defined in kotlin.sequences
+public fun Sequence<Float>.max(): Float defined in kotlin.sequences
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/RetryingTest.kt:156:40 Type argument is not within its bounds: should be subtype of 'Any'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/RetryingTestExtension.kt:51:13 Class 'FailedTestRetrier' is not abstract and does not implement abstract member public abstract fun remove(): Unit defined in kotlin.collections.MutableIterator
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/RetryingTestExtension.kt:62:24 Unresolved reference: E
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/RetryingTestExtension.kt:62:24 An annotation argument must be a compile-time constant
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/RetryingTestExtension.kt:76:23 Type mismatch: inferred type is E but Throwable was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/RetryingTestExtension.kt:136:17 Expression 'isFirstExecution' of type 'Boolean' cannot be invoked as a function. The function 'invoke()' is not found
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/RetryingTestExtension.kt:149:18 Expression 'isFirstExecution' of type 'Boolean' cannot be invoked as a function. The function 'invoke()' is not found
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/RetryingTestExtension.kt:202:21 Type mismatch: inferred type is Array<KClass<out Throwable?>> but Array<Class<out Throwable?>> was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/StdIn.kt:69:53 Type mismatch: inferred type is Array<String?> but Array<String> was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/StdIoExtension.kt:41:69 Type mismatch: inferred type is Array<out String> but Array<String> was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/StdIoExtension.kt:96:13 Type mismatch: inferred type is Class<StdIo> but Class<TypeVariable(A)?> was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/StdIoExtension.kt:96:13 Type mismatch: inferred type is StdIo? but StdIo was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/StdIoExtension.kt:106:13 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type StdIo?
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/StdIoExtension.kt:113:81 Type mismatch: inferred type is Array<out String> but Array<String> was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/StdOutputStream.kt:51:53 Type mismatch: inferred type is Array<String?> but Array<String> was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/SystemPropertyExtension.kt:15:10 Class 'SystemPropertyExtension' is not abstract and does not implement abstract base class member protected abstract fun clearEntry(key: String?): Unit defined in org.junitpioneer.jupiter.AbstractEntryBasedExtension
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/SystemPropertyExtension.kt:17:36 Return type of 'clearKeyMapper' is not a subtype of the return type of the overridden member 'protected abstract fun clearKeyMapper(): Function<ClearSystemProperty, String?> defined in org.junitpioneer.jupiter.AbstractEntryBasedExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/SystemPropertyExtension.kt:21:34 Return type of 'setKeyMapper' is not a subtype of the return type of the overridden member 'protected abstract fun setKeyMapper(): Function<SetSystemProperty, String?> defined in org.junitpioneer.jupiter.AbstractEntryBasedExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/SystemPropertyExtension.kt:29:5 'clearEntry' overrides nothing
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/SystemPropertyExtension.kt:33:5 'getEntry' overrides nothing
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianArgumentsSource.kt:37:27 Type argument is not within its bounds: should be subtype of 'Any'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianEnumArgumentsProvider.kt:25:56 Type argument is not within its bounds: should be subtype of 'Enum<E>'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianEnumArgumentsProvider.kt:46:32 Type mismatch: inferred type is (E) -> Boolean but (E?) -> Boolean was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianEnumArgumentsProvider.kt:46:34 Expected parameter of type E?
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianEnumArgumentsProvider.kt:46:62 Type mismatch: inferred type is E but Enum<*> was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianEnumArgumentsProvider.kt:53:30 Type mismatch: inferred type is E? but Enum<E?>! was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianEnumArgumentsProvider.kt:53:30 Type mismatch: inferred type is E! but Enum<E?>! was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianEnumArgumentsProvider.kt:57:35 Type mismatch: inferred type is KClass<out Enum<*>?> but Class<*> was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianEnumArgumentsProvider.kt:64:16 Type mismatch: inferred type is Class<*> but Class<E?> was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianFactoryArgumentsProvider.kt:23:10 Class 'CartesianFactoryArgumentsProvider' is not abstract and does not implement abstract member public abstract fun accept(p0: CartesianTest.MethodFactory?): Unit defined in org.junit.jupiter.params.support.AnnotationConsumer
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianFactoryArgumentsProvider.kt:43:34 Cannot access 'arguments': it is private in 'ArgumentSets'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianFactoryArgumentsProvider.kt:57:5 'accept' overrides nothing
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTest.kt:170:31 Type argument is not within its bounds: should be subtype of 'Any'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTest.kt:214:17 Interface Validator does not have constructors
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTest.kt:215:21 Companion object of enum class 'Mode' is uninitialized here
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTest.kt:228:17 Interface Validator does not have constructors
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTest.kt:229:21 Companion object of enum class 'Mode' is uninitialized here
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTest.kt:244:17 Interface Validator does not have constructors
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTest.kt:245:21 Companion object of enum class 'Mode' is uninitialized here
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTest.kt:262:17 Interface Validator does not have constructors
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTest.kt:263:21 Companion object of enum class 'Mode' is uninitialized here
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTest.kt:297:56 Type mismatch: inferred type is Unit! but String! was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTest.kt:297:73 Unresolved reference: name
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTestExtension.kt:72:44 Type mismatch: inferred type is List<Annotation?> but List<Annotation> was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTestExtension.kt:84:55 Cannot access 'arguments': it is private in 'ArgumentSets'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTestExtension.kt:96:27 Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public fun <T : Comparable<TypeVariable(T)>> Array<out TypeVariable(T)>.min(): TypeVariable(T) defined in kotlin.collections
+public fun Array<out Double>.min(): Double defined in kotlin.collections
+public fun Array<out Float>.min(): Float defined in kotlin.collections
+public fun ByteArray.min(): Byte defined in kotlin.collections
+public fun CharArray.min(): Char defined in kotlin.collections
+public fun CharSequence.min(): Char defined in kotlin.text
+public fun DoubleArray.min(): Double defined in kotlin.collections
+public fun FloatArray.min(): Float defined in kotlin.collections
+public fun IntArray.min(): Int defined in kotlin.collections
+public fun LongArray.min(): Long defined in kotlin.collections
+public fun ShortArray.min(): Short defined in kotlin.collections
+public fun UByteArray.min(): UByte defined in kotlin.collections
+public fun UIntArray.min(): UInt defined in kotlin.collections
+public fun ULongArray.min(): ULong defined in kotlin.collections
+public fun UShortArray.min(): UShort defined in kotlin.collections
+public fun <T : Comparable<TypeVariable(T)>> Iterable<TypeVariable(T)>.min(): TypeVariable(T) defined in kotlin.collections
+public fun Iterable<Double>.min(): Double defined in kotlin.collections
+public fun Iterable<Float>.min(): Float defined in kotlin.collections
+public fun <T : Comparable<TypeVariable(T)>> Sequence<TypeVariable(T)>.min(): TypeVariable(T) defined in kotlin.sequences
+public fun Sequence<Double>.min(): Double defined in kotlin.sequences
+public fun Sequence<Float>.min(): Float defined in kotlin.sequences
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTestExtension.kt:124:32 Unresolved reference: annotationType
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTestExtension.kt:128:82 Type mismatch: inferred type is KClass<out CartesianArgumentsProvider?> but Class<TypeVariable(T)!>! was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTestExtension.kt:146:29 Type mismatch: inferred type is KClass<out CartesianArgumentsProvider?> but Class<*> was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTestExtension.kt:153:96 Unresolved reference: annotationType
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTestExtension.kt:158:29 Type mismatch: inferred type is KClass<out ArgumentsProvider!> but Class<*> was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTestExtension.kt:175:21 Type mismatch: inferred type is (Mutable)List<Any?>! but List<Any>! was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTestExtension.kt:175:76 Type mismatch: inferred type is (Mutable)List<Any?>! but List<Any>! was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTestExtension.kt:175:88 Type mismatch: inferred type is (Mutable)List<Any?>! but List<Any>! was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTestInvocationContext.kt:22:51 Type mismatch: inferred type is Any? but Any was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianTestInvocationContext.kt:22:61 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type List<CapturedType(*)>?
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianValueArgumentsProvider.kt:26:10 Class 'CartesianValueArgumentsProvider' is not abstract and does not implement abstract member public abstract fun accept(p0: CartesianTest.Values?): Unit defined in org.junit.jupiter.params.support.AnnotationConsumer
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianValueArgumentsProvider.kt:29:5 Property must be initialized or be abstract
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/CartesianValueArgumentsProvider.kt:31:5 'accept' overrides nothing
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/package-info.kt:65:67 Cannot access 'ArgumentChecker': it is private in 'DisableIfArgumentExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/package-info.kt:76:61 Cannot access 'TemporaryDirectoryResource': it is private in 'TemporaryDirectory'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/package-info.kt:129:55 Cannot access 'FailedTestRetrier': it is private in 'RetryingTestExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/cartesian/package-info.kt:146:61 Cannot access 'EntriesBackup': it is private in 'AbstractEntryBasedExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/converter/NumberToByteArrayArgumentConverter.kt:18:10 Class 'NumberToByteArrayArgumentConverter' is not abstract and does not implement abstract member public abstract fun accept(p0: NumberToByteArrayConversion?): Unit defined in org.junit.jupiter.params.support.AnnotationConsumer
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/converter/NumberToByteArrayArgumentConverter.kt:25:5 'accept' overrides nothing
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/converter/package-info.kt:69:67 Cannot access 'ArgumentChecker': it is private in 'DisableIfArgumentExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/converter/package-info.kt:80:61 Cannot access 'TemporaryDirectoryResource': it is private in 'TemporaryDirectory'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/converter/package-info.kt:133:55 Cannot access 'FailedTestRetrier': it is private in 'RetryingTestExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/converter/package-info.kt:150:61 Cannot access 'EntriesBackup': it is private in 'AbstractEntryBasedExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/displaynamegenerator/package-info.kt:67:67 Cannot access 'ArgumentChecker': it is private in 'DisableIfArgumentExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/displaynamegenerator/package-info.kt:78:61 Cannot access 'TemporaryDirectoryResource': it is private in 'TemporaryDirectory'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/displaynamegenerator/package-info.kt:131:55 Cannot access 'FailedTestRetrier': it is private in 'RetryingTestExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/displaynamegenerator/package-info.kt:148:61 Cannot access 'EntriesBackup': it is private in 'AbstractEntryBasedExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/issue/IssueExtensionExecutionListener.kt:56:62 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type String?
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/issue/package-info.kt:58:67 Cannot access 'ArgumentChecker': it is private in 'DisableIfArgumentExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/issue/package-info.kt:69:61 Cannot access 'TemporaryDirectoryResource': it is private in 'TemporaryDirectory'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/issue/package-info.kt:122:55 Cannot access 'FailedTestRetrier': it is private in 'RetryingTestExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/issue/package-info.kt:139:61 Cannot access 'EntriesBackup': it is private in 'AbstractEntryBasedExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/AbstractJsonArgumentsProvider.kt:32:42 Type mismatch: inferred type is (Node) -> Arguments! but ((Node?) -> TypeVariable(R)!)! was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/AbstractJsonArgumentsProvider.kt:32:44 Expected parameter of type Node?
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/AbstractJsonArgumentsProvider.kt:37:42 Type mismatch: inferred type is (Node) -> Any? but ((Node?) -> TypeVariable(R)!)! was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/AbstractJsonArgumentsProvider.kt:37:44 Expected parameter of type Node?
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/AbstractJsonSourceBasedArgumentsProvider.kt:31:13 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type List<AbstractJsonSourceBasedArgumentsProvider.Source>?
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/AbstractJsonSourceBasedArgumentsProvider.kt:39:62 Smart cast to 'String' is impossible, because 'dataLocation' is a mutable property that could have been changed by this time
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/AbstractJsonSourceBasedArgumentsProvider.kt:47:20 Type mismatch: inferred type is Stream<Node>? but Stream<Node?>? was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/JacksonJsonConverter.kt:64:44 Type mismatch: inferred type is Unit! but ObjectMapperProvider! was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/JacksonJsonConverter.kt:64:69 Unresolved reference: get
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/JacksonNode.kt:46:45 Type mismatch: inferred type is Optional<Node> but Optional<Node?> was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/JacksonNode.kt:47:16 Type mismatch: inferred type is Optional<Node> but Optional<Node?> was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/JsonClasspathSourceArgumentsProvider.kt:21:10 Class 'JsonClasspathSourceArgumentsProvider' is not abstract and does not implement abstract base class member public abstract fun accept(p0: JsonClasspathSource?): Unit defined in org.junitpioneer.jupiter.json.AbstractJsonSourceBasedArgumentsProvider
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/JsonClasspathSourceArgumentsProvider.kt:23:5 'accept' overrides nothing
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/JsonClasspathSourceArgumentsProvider.kt:33:20 Interface Source does not have constructors
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/JsonConverterProvider.kt:31:15 Expression 'NoJsonParserConfiguredException' of type 'NoJsonParserConfiguredException' cannot be invoked as a function. The function 'invoke()' is not found
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/JsonFileSourceArgumentsProvider.kt:26:10 Class 'JsonFileSourceArgumentsProvider' is not abstract and does not implement abstract base class member public abstract fun accept(p0: JsonFileSource?): Unit defined in org.junitpioneer.jupiter.json.AbstractJsonSourceBasedArgumentsProvider
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/JsonFileSourceArgumentsProvider.kt:28:5 'accept' overrides nothing
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/JsonFileSourceArgumentsProvider.kt:35:20 Interface Source does not have constructors
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/JsonInlineArgumentsProvider.kt:20:10 Class 'JsonInlineArgumentsProvider' is not abstract and does not implement abstract base class member public abstract fun accept(p0: JsonSource?): Unit defined in org.junitpioneer.jupiter.json.AbstractJsonArgumentsProvider
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/JsonInlineArgumentsProvider.kt:23:5 'accept' overrides nothing
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/JsonInlineArgumentsProvider.kt:29:13 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type List<String>?
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/NoJsonParserConfiguredException.kt:19:42 None of the following functions can be called with the arguments supplied: 
+public constructor JUnitException(message: String!) defined in org.junit.platform.commons.JUnitException
+public constructor JUnitException(message: String!, cause: Throwable!) defined in org.junit.platform.commons.JUnitException
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/package-info.kt:74:67 Cannot access 'ArgumentChecker': it is private in 'DisableIfArgumentExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/package-info.kt:85:61 Cannot access 'TemporaryDirectoryResource': it is private in 'TemporaryDirectory'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/package-info.kt:138:55 Cannot access 'FailedTestRetrier': it is private in 'RetryingTestExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/json/package-info.kt:155:61 Cannot access 'EntriesBackup': it is private in 'AbstractEntryBasedExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/package-info.kt:89:67 Cannot access 'ArgumentChecker': it is private in 'DisableIfArgumentExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/package-info.kt:100:61 Cannot access 'TemporaryDirectoryResource': it is private in 'TemporaryDirectory'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/package-info.kt:153:55 Cannot access 'FailedTestRetrier': it is private in 'RetryingTestExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/package-info.kt:170:61 Cannot access 'EntriesBackup': it is private in 'AbstractEntryBasedExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/ByteRange.kt:12:10 Class 'ByteRange' is not abstract and does not implement abstract base class member public abstract fun remove(): Unit defined in org.junitpioneer.jupiter.params.Range
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/ByteRange.kt:15:25 Operator call corresponds to a dot-qualified call 'current.plus(step)' which is not allowed on a nullable receiver 'current'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/DisableIfArgumentExtension.kt:133:107 Type mismatch: inferred type is String? but CharSequence was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/DisableIfNameExtension.kt:30:13 Type mismatch: inferred type is Class<DisableIfDisplayName> but Class<TypeVariable(A)?> was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/DisableIfNameExtension.kt:32:45 Type mismatch: inferred type is (DisableIfDisplayName) -> ConditionEvaluationResult! but ((DisableIfDisplayName?) -> TypeVariable(U)!)! was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/DisableIfNameExtension.kt:32:47 Expected parameter of type DisableIfDisplayName?
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/DisableIfNameExtension.kt:65:53 Type mismatch: inferred type is String? but CharSequence was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/DoubleRange.kt:12:10 Class 'DoubleRange' is not abstract and does not implement abstract base class member public abstract fun remove(): Unit defined in org.junitpioneer.jupiter.params.Range
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/DoubleRange.kt:15:24 Operator call corresponds to a dot-qualified call 'current.plus(step)' which is not allowed on a nullable receiver 'current'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/FloatRange.kt:12:10 Class 'FloatRange' is not abstract and does not implement abstract base class member public abstract fun remove(): Unit defined in org.junitpioneer.jupiter.params.Range
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/FloatRange.kt:15:24 Operator call corresponds to a dot-qualified call 'current.plus(step)' which is not allowed on a nullable receiver 'current'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/IntRange.kt:12:10 Class 'IntRange' is not abstract and does not implement abstract base class member public abstract fun remove(): Unit defined in org.junitpioneer.jupiter.params.Range
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/IntRange.kt:15:24 Operator call corresponds to a dot-qualified call 'current.plus(step)' which is not allowed on a nullable receiver 'current'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/LongRange.kt:12:10 Class 'LongRange' is not abstract and does not implement abstract base class member public abstract fun remove(): Unit defined in org.junitpioneer.jupiter.params.Range
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/LongRange.kt:15:24 Operator call corresponds to a dot-qualified call 'current.plus(step)' which is not allowed on a nullable receiver 'current'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/RangeClass.kt:21:60 Type argument is not within its bounds: should be subtype of 'Any'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/RangeSourceArgumentsProvider.kt:71:75 Unresolved reference: annotationType
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/RangeSourceArgumentsProvider.kt:72:48 Type mismatch: inferred type is KClass<out Range<*>?> but Class<out Range<*>?> was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/ShortRange.kt:12:10 Class 'ShortRange' is not abstract and does not implement abstract base class member public abstract fun remove(): Unit defined in org.junitpioneer.jupiter.params.Range
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/ShortRange.kt:15:25 Operator call corresponds to a dot-qualified call 'current.plus(step)' which is not allowed on a nullable receiver 'current'.
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/package-info.kt:87:67 Cannot access 'ArgumentChecker': it is private in 'DisableIfArgumentExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/package-info.kt:98:61 Cannot access 'TemporaryDirectoryResource': it is private in 'TemporaryDirectory'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/package-info.kt:151:55 Cannot access 'FailedTestRetrier': it is private in 'RetryingTestExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/params/package-info.kt:168:61 Cannot access 'EntriesBackup': it is private in 'AbstractEntryBasedExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/resource/New.kt:45:27 Type argument is not within its bounds: should be subtype of 'Any'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/resource/ResourceExtension.kt:78:81 Type mismatch: inferred type is KClass<out ResourceFactory<*>?> but Class<TypeVariable(T)!>! was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/resource/ResourceExtension.kt:124:29 Type mismatch: inferred type is KClass<CapturedType(out ResourceFactory<*>?)> but Class<TypeVariable(T)!>! was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/resource/ResourceExtension.kt:124:29 Type mismatch: inferred type is KClass<out ResourceFactory<*>?> but Class<TypeVariable(T)!>! was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/resource/Shared.kt:48:29 Type argument is not within its bounds: should be subtype of 'Any'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/resource/package-info.kt:77:67 Cannot access 'ArgumentChecker': it is private in 'DisableIfArgumentExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/resource/package-info.kt:88:61 Cannot access 'TemporaryDirectoryResource': it is private in 'TemporaryDirectory'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/resource/package-info.kt:141:55 Cannot access 'FailedTestRetrier': it is private in 'RetryingTestExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/jupiter/resource/package-info.kt:158:61 Cannot access 'EntriesBackup': it is private in 'AbstractEntryBasedExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/vintage/ExpectedExceptionExtension.kt:85:20 Type mismatch: inferred type is Optional<KClass<out Throwable?>!>! but Optional<out Class<out Throwable?>> was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/vintage/ExpectedExceptionExtension.kt:90:25 Type mismatch: inferred type is Predicate<Class<Throwable?>> but Predicate<in KClass<out Throwable?>!>! was expected
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/vintage/ExpectedExceptionExtension.kt:90:109 Unresolved reference: None
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/vintage/Test.kt:59:30 Type argument is not within its bounds: should be subtype of 'Any'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/vintage/package-info.kt:66:67 Cannot access 'ArgumentChecker': it is private in 'DisableIfArgumentExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/vintage/package-info.kt:77:61 Cannot access 'TemporaryDirectoryResource': it is private in 'TemporaryDirectory'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/vintage/package-info.kt:130:55 Cannot access 'FailedTestRetrier': it is private in 'RetryingTestExtension'
+e: file:///Users/shin/ghq/github.com/junit-pioneer/junit-pioneer/src/main/java/org/junitpioneer/vintage/package-info.kt:147:61 Cannot access 'EntriesBackup': it is private in 'AbstractEntryBasedExtension'
+
+> Task :compileKotlin FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.10.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+12 actionable tasks: 7 executed, 5 up-to-date
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 8s
+19:20:09:  'build' の実行を完了しました。

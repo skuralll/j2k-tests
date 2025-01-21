@@ -1,0 +1,195 @@
+15:54:34: Executing 'build'…
+
+Starting Gradle Daemon...
+Gradle Daemon started in 472 ms
+> Task :checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :processResources UP-TO-DATE
+> Task :processTestResources NO-SOURCE
+
+> Task :compileKotlin FAILED
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/DepositVault.kt:120:38 Unresolved reference 'getMainConfig'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/command/CheckCommand.kt:14:49 Unresolved reference 'getCacheStore'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/command/CommandBase.kt:31:21 Unresolved reference 'getExecuter'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/command/CommandBase.kt:36:21 Unresolved reference 'getExecuter'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/command/ExtendCommand.kt:23:37 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.config.ConfigLoader?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/command/ExtendCommand.kt:23:48 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.config.MainConfig?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/command/ExtendCommand.kt:25:17 Assignment type mismatch: actual type is 'com.skuralll.depositvault.cache.NormalCache<java.util.UUID, java.sql.Time>', but 'com.skuralll.depositvault.cache.NormalCache<java.util.UUID?, java.sql.Time?>?' was expected.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/command/ExtendCommand.kt:25:34 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.cache.CacheStore?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/command/ExtendCommand.kt:36:39 Unresolved reference 'getMax'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/command/ExtendCommand.kt:39:37 Unresolved reference 'getMax'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/command/ExtendCommand.kt:40:18 Unresolved reference 'put'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/command/ExtendCommand.kt:40:37 Unresolved reference 'getUnit'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/command/ExtendCommand.kt:46:34 Unresolved reference 'getUnit'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/command/InfoCommand.kt:11:5 'executer' in 'SubCommand' is final and cannot be overridden.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/command/InfoCommand.kt:15:54 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.DepositVault?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/command/LockCommand.kt:23:37 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.config.ConfigLoader?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/command/LockCommand.kt:23:48 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.config.MainConfig?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/command/LockCommand.kt:25:17 Assignment type mismatch: actual type is 'com.skuralll.depositvault.cache.NormalCache<java.util.UUID, java.sql.Time>', but 'com.skuralll.depositvault.cache.NormalCache<java.util.UUID?, java.sql.Time?>?' was expected.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/command/LockCommand.kt:25:34 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.cache.CacheStore?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/command/LockCommand.kt:39:37 Unresolved reference 'getMax'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/command/LockCommand.kt:40:18 Unresolved reference 'put'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/command/LockCommand.kt:40:37 Unresolved reference 'getUnit'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/command/SubCommand.kt:8:65 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.config.ConfigLoader?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/command/UICommand.kt:14:49 Unresolved reference 'getCacheStore'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/command/UnlockCommand.kt:14:49 Unresolved reference 'getCacheStore'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/config/ConfigLoader.kt:18:36 Initializer type mismatch: expected 'com.skuralll.depositvault.DepositVault', actual 'com.skuralll.depositvault.DepositVault?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/config/groups/GeneralConfig.kt:14:36 Initializer type mismatch: expected 'com.skuralll.depositvault.DepositVault', actual 'com.skuralll.depositvault.DepositVault?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/config/groups/LockConfig.kt:15:36 Initializer type mismatch: expected 'com.skuralll.depositvault.DepositVault', actual 'com.skuralll.depositvault.DepositVault?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/config/groups/LockConfig.kt:29:27 Unresolved reference 'getMillis'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/db/Database.kt:32:44 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.DepositVault?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/db/Database.kt:37:44 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.DepositVault?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/handler/LockHandler.kt:30:25 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.DepositVault?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/handler/LockHandler.kt:31:29 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.DepositVault?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/handler/LockHandler.kt:31:42 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.config.ConfigLoader?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/handler/LockHandler.kt:31:53 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.config.MainConfig?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/handler/LockHandler.kt:32:32 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.DepositVault?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/handler/LockHandler.kt:32:45 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.config.ConfigLoader?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/handler/LockHandler.kt:32:56 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.config.MainConfig?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/handler/LockHandler.kt:33:32 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.DepositVault?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/handler/LockHandler.kt:33:45 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.config.ConfigLoader?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/handler/LockHandler.kt:34:20 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.DepositVault?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/handler/LockHandler.kt:75:39 Unresolved reference 'getMaxTime'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/handler/LockHandler.kt:80:55 Unresolved reference 'getZoneId'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/handler/LockHandler.kt:81:14 None of the following candidates is applicable:
+fun BigDecimal.plus(other: BigDecimal): BigDecimal
+fun BigInteger.plus(other: BigInteger): BigInteger
+fun String?.plus(other: Any?): String
+fun <T> Array<T>.plus(element: T): Array<T>
+fun <T> Array<T>.plus(elements: Array<out T>): Array<T>
+fun <T> Array<T>.plus(elements: Collection<T>): Array<T>
+fun BooleanArray.plus(element: Boolean): BooleanArray
+fun BooleanArray.plus(elements: BooleanArray): BooleanArray
+fun BooleanArray.plus(elements: Collection<Boolean>): BooleanArray
+fun ByteArray.plus(element: Byte): ByteArray
+fun ByteArray.plus(elements: ByteArray): ByteArray
+fun ByteArray.plus(elements: Collection<Byte>): ByteArray
+fun CharArray.plus(element: Char): CharArray
+fun CharArray.plus(elements: CharArray): CharArray
+fun CharArray.plus(elements: Collection<Char>): CharArray
+fun DoubleArray.plus(element: Double): DoubleArray
+fun DoubleArray.plus(elements: DoubleArray): DoubleArray
+fun DoubleArray.plus(elements: Collection<Double>): DoubleArray
+fun FloatArray.plus(element: Float): FloatArray
+fun FloatArray.plus(elements: FloatArray): FloatArray
+fun FloatArray.plus(elements: Collection<Float>): FloatArray
+fun IntArray.plus(element: Int): IntArray
+fun IntArray.plus(elements: IntArray): IntArray
+fun IntArray.plus(elements: Collection<Int>): IntArray
+fun LongArray.plus(element: Long): LongArray
+fun LongArray.plus(elements: LongArray): LongArray
+fun LongArray.plus(elements: Collection<Long>): LongArray
+fun ShortArray.plus(element: Short): ShortArray
+fun ShortArray.plus(elements: ShortArray): ShortArray
+fun ShortArray.plus(elements: Collection<Short>): ShortArray
+fun <T> Collection<T>.plus(element: T): List<T>
+fun <T> Collection<T>.plus(elements: Array<out T>): List<T>
+fun <T> Collection<T>.plus(elements: Iterable<T>): List<T>
+fun <T> Collection<T>.plus(elements: Sequence<T>): List<T>
+fun <T> Iterable<T>.plus(element: T): List<T>
+fun <T> Iterable<T>.plus(elements: Array<out T>): List<T>
+fun <T> Iterable<T>.plus(elements: Iterable<T>): List<T>
+fun <T> Iterable<T>.plus(elements: Sequence<T>): List<T>
+fun <K, V> Map<out K, V>.plus(pairs: Array<out Pair<K, V>>): Map<K, V>
+fun <K, V> Map<out K, V>.plus(pair: Pair<K, V>): Map<K, V>
+fun <K, V> Map<out K, V>.plus(pairs: Iterable<Pair<K, V>>): Map<K, V>
+fun <K, V> Map<out K, V>.plus(map: Map<out K, V>): Map<K, V>
+fun <K, V> Map<out K, V>.plus(pairs: Sequence<Pair<K, V>>): Map<K, V>
+fun <T> Set<T>.plus(element: T): Set<T>
+fun <T> Set<T>.plus(elements: Array<out T>): Set<T>
+fun <T> Set<T>.plus(elements: Iterable<T>): Set<T>
+fun <T> Set<T>.plus(elements: Sequence<T>): Set<T>
+fun UByteArray.plus(element: UByte): UByteArray
+fun UByteArray.plus(elements: UByteArray): UByteArray
+fun UByteArray.plus(elements: Collection<UByte>): UByteArray
+fun UIntArray.plus(element: UInt): UIntArray
+fun UIntArray.plus(elements: UIntArray): UIntArray
+fun UIntArray.plus(elements: Collection<UInt>): UIntArray
+fun ULongArray.plus(element: ULong): ULongArray
+fun ULongArray.plus(elements: ULongArray): ULongArray
+fun ULongArray.plus(elements: Collection<ULong>): ULongArray
+fun UShortArray.plus(element: UShort): UShortArray
+fun UShortArray.plus(elements: UShortArray): UShortArray
+fun UShortArray.plus(elements: Collection<UShort>): UShortArray
+fun <T> Sequence<T>.plus(element: T): Sequence<T>
+fun <T> Sequence<T>.plus(elements: Array<out T>): Sequence<T>
+fun <T> Sequence<T>.plus(elements: Iterable<T>): Sequence<T>
+fun <T> Sequence<T>.plus(elements: Sequence<T>): Sequence<T>
+fun Char.plus(other: String): String
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/handler/LockHandler.kt:112:50 Unresolved reference 'getZoneId'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/handler/LockHandler.kt:113:39 Unresolved reference 'getMaxTime'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/handler/LockHandler.kt:124:29 Unresolved reference 'getPrice'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/handler/LockHandler.kt:125:40 Unresolved reference 'getUnit'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/handler/LockHandler.kt:134:48 Unresolved reference 'getMax'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/handler/LockHandler.kt:138:33 Unresolved reference 'getUnit'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/handler/LockHandler.kt:159:71 Unresolved reference 'getZoneId'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/handler/LockHandler.kt:160:15 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.db.Database?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/listener/BlockEventListener.kt:56:25 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.DepositVault?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/listener/BlockEventListener.kt:57:25 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.DepositVault?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/listener/BlockEventListener.kt:57:38 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.config.ConfigLoader?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/listener/PlayerEventListener.kt:33:25 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.DepositVault?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/listener/PlayerEventListener.kt:34:25 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.DepositVault?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/listener/PlayerEventListener.kt:34:38 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.config.ConfigLoader?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/listener/PlayerEventListener.kt:35:23 Assignment type mismatch: actual type is 'com.skuralll.depositvault.cache.TimerCache<java.util.UUID>', but 'com.skuralll.depositvault.cache.TimerCache<java.util.UUID?>?' was expected.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/listener/PlayerEventListener.kt:35:29 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.DepositVault?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/listener/PlayerEventListener.kt:35:40 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.cache.CacheStore?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/listener/PlayerEventListener.kt:36:24 Assignment type mismatch: actual type is 'com.skuralll.depositvault.cache.TimerCache<java.util.UUID>', but 'com.skuralll.depositvault.cache.TimerCache<java.util.UUID?>?' was expected.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/listener/PlayerEventListener.kt:36:30 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.DepositVault?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/listener/PlayerEventListener.kt:36:41 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.cache.CacheStore?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/listener/PlayerEventListener.kt:37:26 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.DepositVault?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/listener/PlayerEventListener.kt:37:38 Unresolved reference 'uiCommandCache'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/listener/PlayerEventListener.kt:38:22 Assignment type mismatch: actual type is 'com.skuralll.depositvault.cache.NormalCache<java.util.UUID, java.sql.Time>', but 'com.skuralll.depositvault.cache.NormalCache<java.util.UUID?, java.sql.Time?>?' was expected.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/listener/PlayerEventListener.kt:38:28 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.DepositVault?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/listener/PlayerEventListener.kt:38:39 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.cache.CacheStore?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/listener/PlayerEventListener.kt:39:24 Assignment type mismatch: actual type is 'com.skuralll.depositvault.cache.NormalCache<java.util.UUID, java.sql.Time>', but 'com.skuralll.depositvault.cache.NormalCache<java.util.UUID?, java.sql.Time?>?' was expected.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/listener/PlayerEventListener.kt:39:30 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.DepositVault?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/listener/PlayerEventListener.kt:39:41 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.cache.CacheStore?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/listener/PlayerEventListener.kt:40:25 Assignment type mismatch: actual type is 'com.skuralll.depositvault.cache.NormalCache<java.util.UUID, org.bukkit.Location>', but 'com.skuralll.depositvault.cache.NormalCache<java.util.UUID?, org.bukkit.Location?>?' was expected.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/listener/PlayerEventListener.kt:40:31 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.DepositVault?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/listener/PlayerEventListener.kt:40:42 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.cache.CacheStore?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/listener/PlayerEventListener.kt:41:27 Assignment type mismatch: actual type is 'com.skuralll.depositvault.cache.NormalCache<java.util.UUID, org.bukkit.Location>', but 'com.skuralll.depositvault.cache.NormalCache<java.util.UUID?, org.bukkit.Location?>?' was expected.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/listener/PlayerEventListener.kt:41:33 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.DepositVault?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/listener/PlayerEventListener.kt:41:44 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.cache.CacheStore?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/model/LockUnit.kt:4:5 'name' in 'LockUnit' is final and cannot be overridden.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/ui/GUI.kt:12:41 Unresolved reference 'getConfigLoader'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/ui/GUI.kt:20:9 Unresolved reference 'window'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/ui/GUI.kt:25:30 Unresolved reference 'window'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/ui/HolderMenuGUI.kt:21:40 Initializer type mismatch: expected 'com.skuralll.depositvault.DepositVault', actual 'com.skuralll.depositvault.DepositVault?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/ui/HolderMenuGUI.kt:22:46 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.config.ConfigLoader?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/ui/HolderMenuGUI.kt:34:27 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.cache.CacheStore?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/ui/HolderMenuGUI.kt:42:31 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.cache.CacheStore?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/ui/item/LockStatusItem.kt:23:72 Unresolved reference 'getHandler'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/ui/item/LockStatusItem.kt:24:74 Unresolved reference 'getConfigLoader'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/ui/item/LockStatusItem.kt:42:41 Unresolved reference 'getLockId'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/ui/item/LockStatusItem.kt:64:13 'return' is prohibited here.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/ui/item/ProtectItem.kt:27:30 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.DepositVault?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/ui/item/ProtectItem.kt:27:43 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'com.skuralll.depositvault.config.ConfigLoader?'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/ui/item/ProtectItem.kt:31:29 Unresolved reference 'getConfigLoader'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/ui/item/ProtectItem.kt:36:14 Unresolved reference 'put'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/ui/item/ProtectItem.kt:48:21 Argument type mismatch: actual type is '@NotNull() java.util.UUID', but 'CapturedType(*)' was expected.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/ui/item/ProtectItem.kt:48:38 Argument type mismatch: actual type is 'org.bukkit.Location', but 'CapturedType(*)' was expected.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/ui/item/UnLockItem.kt:20:41 Unresolved reference 'getConfigLoader'.
+e: file:///Users/shin/ghq/github.com/skuralll/DepositVault/src/main/java/com/skuralll/depositvault/ui/item/UnLockItem.kt:21:73 Unresolved reference 'getHandler'.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+2 actionable tasks: 1 executed, 1 up-to-date
+15:54:41: Execution finished 'build'.

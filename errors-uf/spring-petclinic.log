@@ -1,0 +1,44 @@
+16:04:28: Executing 'build'…
+
+Starting Gradle Daemon...
+Gradle Daemon started in 649 ms
+> Task :checkKotlinGradlePluginConfigurationErrors
+> Task :cyclonedxBom UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :collectReachabilityMetadata UP-TO-DATE
+> Task :checkFormatMain
+> Task :checkFormatTest
+> Task :checkFormat
+> Task :processTestResources NO-SOURCE
+> Task :checkstyleNohttp
+
+> Task :compileKotlin FAILED
+8 actionable tasks: 5 executed, 3 up-to-date
+e: file:///Users/shin/ghq/github.com/spring-projects/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.kt:164:35 Function invocation 'orElseThrow()' expected
+e: file:///Users/shin/ghq/github.com/spring-projects/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.kt:68:5 'findById' overrides nothing
+e: file:///Users/shin/ghq/github.com/spring-projects/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.kt:45:35 Function invocation 'orElseThrow()' expected
+e: file:///Users/shin/ghq/github.com/spring-projects/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.kt:64:35 Function invocation 'orElseThrow()' expected
+e: file:///Users/shin/ghq/github.com/spring-projects/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.kt:102:38 Smart cast to 'LocalDate' is impossible, because 'pet.birthDate' is a mutable property that could have been changed by this time
+e: file:///Users/shin/ghq/github.com/spring-projects/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.kt:137:38 Smart cast to 'LocalDate' is impossible, because 'pet.birthDate' is a mutable property that could have been changed by this time
+e: file:///Users/shin/ghq/github.com/spring-projects/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.kt:38:16 Type mismatch: inferred type is String? but String was expected
+e: file:///Users/shin/ghq/github.com/spring-projects/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.kt:45:21 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type PetType?
+e: file:///Users/shin/ghq/github.com/spring-projects/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.kt:46:24 Type mismatch: inferred type is PetType? but PetType was expected
+e: file:///Users/shin/ghq/github.com/spring-projects/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.kt:53:35 Function invocation 'orElseThrow()' expected
+e: file:///Users/shin/ghq/github.com/spring-projects/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.kt:60:17 Type mismatch: inferred type is Array<String> but String was expected
+e: file:///Users/shin/ghq/github.com/spring-projects/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.kt:66:29 Type mismatch: inferred type is Collection<Vet?>? but Collection<Vet?> was expected
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 7s
+16:04:36: Execution finished 'build'.

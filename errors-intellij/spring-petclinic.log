@@ -1,0 +1,33 @@
+15:33:12:  'build' を実行中...
+
+> Task :checkKotlinGradlePluginConfigurationErrors
+
+> Task :compileKotlin FAILED
+e: file:///Users/shin/ghq/github.com/spring-projects/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.kt:68:5 'findById' overrides nothing
+e: file:///Users/shin/ghq/github.com/spring-projects/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.kt:100:38 Smart cast to 'LocalDate' is impossible, because 'pet.birthDate' is a mutable property that could have been changed by this time
+e: file:///Users/shin/ghq/github.com/spring-projects/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.kt:135:38 Smart cast to 'LocalDate' is impossible, because 'pet.birthDate' is a mutable property that could have been changed by this time
+e: file:///Users/shin/ghq/github.com/spring-projects/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.kt:37:16 Type mismatch: inferred type is String? but String was expected
+e: file:///Users/shin/ghq/github.com/spring-projects/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.kt:44:21 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type PetType?
+e: file:///Users/shin/ghq/github.com/spring-projects/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.kt:45:24 Type mismatch: inferred type is PetType? but PetType was expected
+e: file:///Users/shin/ghq/github.com/spring-projects/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.kt:41:29 Type mismatch: inferred type is (Mutable)List<Vet?>! but Collection<Vet> was expected
+e: file:///Users/shin/ghq/github.com/spring-projects/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.kt:60:17 Type mismatch: inferred type is Array<String> but String was expected
+e: file:///Users/shin/ghq/github.com/spring-projects/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.kt:66:29 Type mismatch: inferred type is Collection<Vet?>? but Collection<Vet> was expected
+
+> Task :cyclonedxBom
+3 actionable tasks: 3 executed
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 5s
+15:33:18:  'build' の実行を完了しました。
